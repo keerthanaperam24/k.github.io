@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    <title>Document</title>
+</head>
+<body>
+   
+    <section class="header">
+
+        <nav>
+            <a href="index.html">  <img src="eduford_img/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">COURSE</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <div class="textbox">
+            <h1>World's biggest university</h1>
+            <p> Making websites are easier now a days you just need to learn
+                HTML,Css,Javascript.
+            </p>
+            <a href="" class="hh">Visit us to know more</a>
+
+
+        </div>
+
+
+        
+    </section>
+
+    <section class="course">
+             <h1>
+                courses we offer
+             </h1>
+             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum error eveniet ea debitis veniam, suscipit soluta iste dolor tempora, quaerat corrupti natus repellat libero. Error laudantium odio enim molestias excepturi.</p>
+             <div class="row">
+                <div class="class-col">
+                    <h3>Intermediate</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque sed perferendis corporis? Accusamus atque aperiam cum mollitia hic impedit. Recusandae necessitatibus voluptates vero ducimus tempora unde, itaque laboriosam odit facilis! Aliquam repellendus dignissimos mollitia corrupti eligendi, deserunt, asperiores cum perferendis atque nisi sed in esse rem tempore non iste ea.
+                    </p>
+                </div>
+                <div class="class-col">
+                    <h3>Deg</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque sed perferendis corporis? Accusamus atque aperiam cum mollitia hic impedit. Recusandae necessitatibus voluptates vero ducimus tempora unde, itaque laboriosam odit facilis! Aliquam repellendus dignissimos mollitia corrupti eligendi, deserunt, asperiores cum perferendis atque nisi sed in esse rem tempore non iste ea.
+                    </p>
+                </div>
+                <div class="class-col">
+                    <h3>Post Graduation</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque sed perferendis corporis? Accusamus atque aperiam cum mollitia hic impedit. Recusandae necessitatibus voluptates vero ducimus tempora unde, itaque laboriosam odit facilis! Aliquam repellendus dignissimos mollitia corrupti eligendi, deserunt, asperiores cum perferendis atque nisi sed in esse rem tempore non iste ea.
+                    </p>
+                </div>
+            </div>
+    </section>
+
+    <script>
+        var navLinks=document.getElementById("navLinks");
+        function showmenu()
+        {
+            navLinks.style.right= "0";
+        }
+        function hidemenu()
+        {
+            navLinks.style.right= "-200px"
+        }
+    </script>
+
+ 
+
+    <section class="campus">
+        <h1>
+            Our Global Campus
+        </h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo aut nemo velit repudiandae eius quae nam totam in commodi ad aliquid rem, vel expedita accusantium voluptates praesentium! Illum corporis dicta ipsa ipsam. Sapiente molestias nulla quasi eos dicta et, architecto culpa, maiores doloribus dignissimos nobis delectus quibusdam, dolorem natus ex!</p>
+        <div class="row">
+            <div class="class-col">
+                <img src="eduford_img/london.png">
+                <div class="layer">
+                    <h3>
+                        LONDON
+                    </h3>
+                </div>
+            </div>
+            <div class="class-col">
+                <img src="eduford_img/newyork.png">
+                <div class="layer">
+                    <h3>
+                        NEWYORK
+                    </h3>
+                </div>
+            </div>
+            <div class="class-col">
+                <img src="eduford_img/washington.png">
+                <div class="layer">
+                    <h3>
+                        WASHINGTON
+                    </h3>
+                </div>
+            </div>
+        </div>
+   
+    </section>
+
+    <section class="facilities">
+        <h1>
+            Our Facilities
+        </h1>
+
+        <div class="row">
+            <div class="facilities-col">
+                <img src="eduford_img/library.png" alt="">
+                <h3>World Class Library</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae reprehenderit ad, quam officiis fugit reiciendis.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="eduford_img/basketball.png" alt="">
+                <h3>Largest Play Ground</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae reprehenderit ad, quam officiis fugit reiciendis.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="eduford_img/cafeteria.png" alt="">
+                <h3>Tasty and Healthy</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae reprehenderit ad, quam officiis fugit reiciendis.</p>
+            </div>
+        </div>
+    </section>
+
+    
+</body>
+</html>
